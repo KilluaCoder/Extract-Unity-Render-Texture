@@ -8,9 +8,10 @@ public class ExtractRenderTexture : MonoBehaviour {
     [SerializeField]
     Camera renderTextureCam;
 
+    [Tooltip("Note: Some formats aren't supported, such as Crunched")]
     [SerializeField]
     TextureFormat textureFormat = TextureFormat.ARGB32;
-    [Tooltip("The format to use, available are: png , jpg , xpr")]
+    [Tooltip("The format to use, available are: png , jpg , exr")]
     [SerializeField]
     string format = "jpg";
     [Range(0f,100f)]
