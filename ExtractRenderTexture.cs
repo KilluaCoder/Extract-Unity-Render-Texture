@@ -23,11 +23,11 @@ public class ExtractRenderTexture : MonoBehaviour {
     string fileName = "ExtractedRenderTexture";
     [SerializeField]
     bool appendIfExists = true;
-
-	// Use this for initialization
-	void Start () {
-        renderTextureCam = GetComponent<Camera>();
-	}
+    
+    // Use this for initialization
+    void Start () {
+         renderTextureCam = GetComponent<Camera>();
+    }
 	
 	
 
