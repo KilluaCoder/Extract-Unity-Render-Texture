@@ -6,7 +6,7 @@ public class ExtractRenderTextureEditor : Editor {
     SerializedProperty[] properties;
     ExtractRenderTexture extractRenderTexture;
     float buttonWidth = 125f;
-    private static GUILayoutOption midButtonWidth;// = GUILayout.Width(buttonWidth);
+    private static GUILayoutOption midButtonWidth;
     private static GUILayoutOption midButtonHeigth = GUILayout.Height(25f);
     
     SerializedProperty
